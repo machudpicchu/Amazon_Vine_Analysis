@@ -4,6 +4,10 @@ I have been asked to work on a project in which I analyze Amazon reviews written
 
 My assignment was to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, I used PySpark to determine if there is any bias toward favorable reviews from Vine members in the dataset. 
 
+After creating the separate data frames for Vine members and non-Vine members, I used these processes to calculate the results:
+![Paid Account Calculations](https://github.com/machudpicchu/Amazon_Vine_Analysis/blob/main/Paid_Account_Calculations.png)
+![Unpaid Account Calculations](https://github.com/machudpicchu/Amazon_Vine_Analysis/blob/main/Unpaid_Account_Calculations.png)
+
 ## Results
 After reviewing the data collected in the category of musical instruments, I determined answers to the following.
 ### How many Vine reviews and non-Vine reviews were there?
